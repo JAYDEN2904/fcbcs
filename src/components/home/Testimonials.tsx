@@ -6,7 +6,7 @@ const testimonials: TestimonialType[] = [
     id: 1,
     name: 'Sarah Johnson',
     role: 'Parent',
-    content: 'Excellence Academy has provided my child with an exceptional education experience. The teachers are dedicated and the curriculum is challenging yet engaging.',
+    content: 'Faith Community Baptist School has provided my child with an exceptional education experience. The teachers are dedicated and the curriculum is challenging yet engaging.',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80',
   },
   {
@@ -20,7 +20,7 @@ const testimonials: TestimonialType[] = [
     id: 3,
     name: 'Emily Rodriguez',
     role: 'Alumni',
-    content: 'The foundation I received at Excellence Academy prepared me well for university and beyond. The memories and friendships I made here will last a lifetime.',
+    content: 'The foundation I received at Faith Community Baptist School prepared me well for university and beyond. The memories and friendships I made here will last a lifetime.',
     avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80',
   },
 ];
