@@ -9,13 +9,17 @@ import Blog from './pages/Blog';
 import Admissions from './pages/Admissions';
 import Contact from './pages/Contact';
 import ApplicationForm from './components/admissions/ApplicationForm';
+import NurseryKindergarten from './pages/departments/NurseryKindergarten';
+import Primary from './pages/departments/Primary';
+import JuniorHigh from './pages/departments/JuniorHigh';
+import SeniorHigh from './pages/departments/SeniorHigh';
 
 function App() {
   return (
     <Router>
-      <div className="flex min-h-screen flex-col">
+      <div className="min-h-screen flex flex-col">
         <Header />
-        <div className="flex-grow">
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -24,8 +28,12 @@ function App() {
             <Route path="/admissions" element={<Admissions />} />
             <Route path="/admissions/apply" element={<ApplicationForm />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/departments/nursery-kindergarten" element={<NurseryKindergarten />} />
+            <Route path="/departments/primary" element={<Primary />} />
+            <Route path="/departments/junior-high" element={<JuniorHigh />} />
+            <Route path="/departments/senior-high" element={<SeniorHigh />} />
           </Routes>
-        </div>
+        </main>
         <Footer />
       </div>
     </Router>
@@ -33,3 +41,4 @@ function App() {
 }
 
 export default App;
+

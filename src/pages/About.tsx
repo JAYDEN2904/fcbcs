@@ -1,6 +1,8 @@
 import React from 'react';
 import Timeline from '../components/about/Timeline';
 import Staff from '../components/about/Staff';
+import Story from '../components/about/Story';
+import Message from '../components/about/Message';
 
 export default function About() {
   return (
@@ -17,6 +19,8 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Story />
+      <Message />
       <Timeline />
       <Staff />
     </div>
