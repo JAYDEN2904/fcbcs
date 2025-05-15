@@ -32,10 +32,10 @@ export default function NurseryKindergarten() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <FadeIn direction="left">
-              <div className="relative h-[400px] rounded-2xl overflow-hidden">
+              <div className="relative h-[600px] rounded-2xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-                  alt="Mrs. Carolyn Oduro"
+                  src="../../assets/IMG_2895.jpg"
+                  alt="Mrs. Cecilia"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl" />

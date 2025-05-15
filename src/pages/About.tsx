@@ -7,7 +7,7 @@ import Message from '../components/about/Message';
 export default function About() {
   return (
     <div className="pt-20">
-      <div className="bg-blue-600 text-white py-16">
+      <div className="bg-[#E53935] text-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">

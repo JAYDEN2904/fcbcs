@@ -41,7 +41,7 @@ export default function Timeline() {
               <div key={milestone.year} className="relative">
                 <div className="flex items-center">
                   <div className="flex-shrink-0 w-24">
-                    <span className="font-bold text-blue-600">{milestone.year}</span>
+                    <span className="font-bold text-red-600">{milestone.year}</span>
                   </div>
                   <div className="flex-grow pl-8 border-l-2 border-gray-200">
                     <h3 className="text-lg font-semibold text-gray-900">

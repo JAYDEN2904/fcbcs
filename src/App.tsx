@@ -5,7 +5,6 @@ import Footer from './components/layout/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Academics from './pages/Academics';
-import Blog from './pages/Blog';
 import Admissions from './pages/Admissions';
 import Contact from './pages/Contact';
 import ApplicationForm from './components/admissions/ApplicationForm';
@@ -24,7 +23,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/academics" element={<Academics />} />
-            <Route path="/blog" element={<Blog />} />
             <Route path="/admissions" element={<Admissions />} />
             <Route path="/admissions/apply" element={<ApplicationForm />} />
             <Route path="/contact" element={<Contact />} />

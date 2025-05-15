@@ -7,7 +7,7 @@ export default function AcademicDivisions() {
       title: "Nursery & Kindergarten",
       subtitle: "Early Years (Ages 1.5 – 5 Years)",
       description: "In our Early Years program, learning is hands-on, joyful, and centered around play. Children are introduced to foundational concepts in language, numbers, art, and the world around them—developing social skills, motor abilities, and a love for learning.",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      image: "../../assets/IMG_2887.jpg",
       icon: School,
       focusAreas: [
         "Phonics & Early Literacy",
@@ -22,7 +22,7 @@ export default function AcademicDivisions() {
       title: "Primary School",
       subtitle: "Basic 1 – 6 (Ages 6 – 11 Years)",
       description: "Our primary curriculum builds on foundational knowledge with structured instruction in core subjects, while nurturing creativity and confidence. Students are exposed to digital tools, project-based learning, and moral instruction rooted in Christian faith.",
-      image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      image: "../../assets/IMG_2851.jpg",
       icon: BookOpen,
       subjects: [
         "English Language & Literature",
@@ -41,7 +41,7 @@ export default function AcademicDivisions() {
       title: "Junior High School",
       subtitle: "JHS 1 – 3 (Ages 12 – 14 Years)",
       description: "Junior High is a time of transition and deeper learning. We focus on preparing students for the Basic Education Certificate Examination (BECE) while promoting leadership, critical thinking, and responsibility.",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      image: "../../assets/IMG_2828.jpg",
       icon: Users,
       features: [
         "Preparation for national assessments (BECE)",
@@ -67,7 +67,7 @@ export default function AcademicDivisions() {
       title: "Senior High School",
       subtitle: "SHS 1 – 3 (Ages 15 – 18 Years)",
       description: "At the SHS level, our students specialize in academic tracks that align with their career goals and passions. We maintain high academic standards, offer rigorous exam preparation, and support university and career readiness.",
-      image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      image: "../../assets/IMG_2919.jpg",
       icon: GraduationCap,
       tracks: [
         "General Science – Physics, Chemistry, Biology, Elective Mathematics",

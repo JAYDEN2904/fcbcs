@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gray-900/70 mix-blend-multiply" />
       </div>
       
-      <div className="relative mx-auto max-w-7xl px-6 py-24 sm:py-60 lg:px-10 flex min-h-screen">
+      <div className="relative mx-auto max-w-7xl px-6 pt-40 pb-24 sm:pt-80 sm:pb-205 lg:px-10 flex min-h-screen">
         <div>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Welcome to Faith Community Baptist Complex Of Schools

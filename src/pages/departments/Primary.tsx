@@ -32,9 +32,9 @@ export default function Primary() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <FadeIn direction="left">
-              <div className="relative h-[400px] rounded-2xl overflow-hidden">
+              <div className="relative h-[600px] rounded-2xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2022&q=80"
+                  src= "../../assets/IMG_2813.jpg"
                   alt="Mr. Kwame Mensah"
                   className="w-full h-full object-cover"
                 />

@@ -53,7 +53,7 @@ export default function Story() {
           </div>
           <div className="relative h-[400px] rounded-2xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              src= "../../assets/IMG_2838.jpg"
               alt="School Building"
               className="w-full h-full object-cover"
             />

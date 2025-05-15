@@ -30,9 +30,9 @@ export default function Message() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Head of School Message */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
-          <div className="relative h-[500px] rounded-2xl overflow-hidden">
+          <div className="relative h-[650px] rounded-2xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              src= "../../assets/IMG_2920.jpg"
               alt="Head of School"
               className="w-full h-full object-cover"
             />
@@ -42,13 +42,19 @@ export default function Message() {
               Message from the Director of School
             </h2>
             <blockquote className="text-lg text-gray-600 italic">
-              "At FCBCS, we see each student as a divine gift—full of purpose, potential, and promise. 
-              Our educators are not just teachers; they are mentors and role models who guide our 
-              students with compassion and excellence. We aim to graduate students who are not only 
-              academically equipped but morally sound, spiritually aware, and socially responsible."
+              "It gives me immense joy and pleasure to be with children. The happiness they share is just phenomenal. Their endless energy is contagious. I am blessed to be with them 
+              each passing year and watching them move from one stage of basic learning to the other.
+            </blockquote>
+            <blockquote className="text-lg text-gray-600 italic">
+              Learning is enjoyable and effortless for children but as adults we try to laboriously push information into their minds. Therefore, it is important to give them the education that suits their way of learning.
+              At Faith Community Baptist Complex of Schools, we seek to incolcate into our children a kind of education that blends with spiritual and moral discipline. We constantly strive to create positive and stimulated learning environment in helping children 
+              build their own mental strength. We provide them ample opportunities for work, play, to explore the world around them and also to fully develop their individual creatives.
+            </blockquote>
+            <blockquote className="text-lg text-gray-600 italic">
+              Thanks to parents and guardians for entrusting their children into our capable hands. We appreciate their love, interest, enthusiasm, and contribution towrds their children's welfare."
             </blockquote>
             <div className="pt-4">
-              <p className="font-semibold text-gray-900">[Head of School Name]</p>
+              <p className="font-semibold text-gray-900">Mrs. Kate Hand Oduro Osafo</p>
               <p className="text-gray-600">Head of School, FCBCS</p>
             </div>
           </div>
@@ -67,7 +73,7 @@ export default function Message() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {achievements.map((achievement) => (
             <div key={achievement.title} className="bg-white p-6 rounded-xl shadow-lg">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white mb-4">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#E53935] text-white mb-4">
                 <achievement.icon className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">{achievement.title}</h3>
