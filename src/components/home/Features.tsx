@@ -13,7 +13,7 @@ export default function Features() {
       title: "Holistic Development",
       description: "We focus on developing the whole child—intellectually, spiritually, emotionally, and socially. Our comprehensive approach ensures students grow into well-rounded individuals.",
       icon: Sparkles,
-      image: "../../assets/IMG_2851.jpg"
+      image: "/IMG_2851.jpg"
     },
     {
       title: "Expert Educators",
