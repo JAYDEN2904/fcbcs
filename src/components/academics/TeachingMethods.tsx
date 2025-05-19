@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Users, Award, Code, Mic, Palette, Cross } from 'lucide-react';
+import { BookOpen, Users, Award, Cross, Heart, Shield } from 'lucide-react';
 
 export default function TeachingMethods() {
   const methods = [
@@ -27,26 +27,20 @@ export default function TeachingMethods() {
 
   const clubs = [
     {
-      title: "Science & Math Club",
-      description: "Explore scientific concepts and mathematical problem-solving",
-      icon: Code,
-      image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+      title: "Girls Guide",
+      description: "The Girls' Guide empowers young girls with life skills, confidence, and a strong sense of responsibility. Through teamwork, outdoor activities, and service projects, members learn to lead with compassion and uphold values such as honesty, respect, and resilience — all while building lasting friendships and memories.",
+      icon: Heart,
+      image: "../../assets/IMG_2923.jpg"
     },
     {
-      title: "Debating & Public Speaking",
-      description: "Enhance communication and critical thinking",
-      icon: Mic,
-      image: "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-    },
-    {
-      title: "Art & Music",
-      description: "Express creativity through various art forms",
-      icon: Palette,
-      image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+      title: "Cadet",
+      description: "The Cadet Corps instills discipline, leadership, and patriotism in students through structured training and teamwork. Cadets take part in drills, physical fitness, and civic education, preparing them to become responsible, confident, and community-minded individuals with a heart to serve.",
+      icon: Shield,
+      image: "../../assets/IMG_2924.jpg"
     },
     {
       title: "Scripture Union",
-      description: "Deepen faith through Bible study and fellowship",
+      description: "Scripture Union is a vibrant fellowship where students grow spiritually through Bible study, prayer, worship, and peer-led discussions. SU provides a safe and uplifting space for young people to deepen their faith, develop godly character, and support each other in their walk with Christ.",
       icon: Cross,
       image: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
     }
@@ -69,7 +63,7 @@ export default function TeachingMethods() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {methods.map((method) => (
               <div key={method.title} className="bg-white p-6 rounded-xl shadow-lg">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white mb-4">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#E53935] text-white mb-4">
                   <method.icon className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{method.title}</h3>
@@ -100,7 +94,7 @@ export default function TeachingMethods() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <div className="absolute bottom-4 left-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white">
+                  <div className="absolute bottom-4 left-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#E53935] text-white">
                     <club.icon className="w-6 h-6" />
                   </div>
                 </div>

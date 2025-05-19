@@ -95,7 +95,7 @@ ${formData.message}`;
           <div>
             <button
               type="submit"
-              className="flex w-full items-center justify-center rounded-md bg-blue-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+              className="flex w-full items-center justify-center rounded-md bg-[#E53935] px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               <Mail className="mr-2 h-4 w-4" />
               Send Message

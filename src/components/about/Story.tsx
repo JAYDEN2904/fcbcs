@@ -40,9 +40,8 @@ export default function Story() {
               Welcome to Faith Community Baptist Complex of Schools
             </h2>
             <p className="text-lg text-gray-600">
-              At Faith Community Baptist Complex of Schools, we don't just teach—we nurture hearts, 
-              inspire minds, and raise God-fearing leaders who are prepared to excel academically 
-              and impact the world with integrity.
+              Founded in 1989, the school is among the first group of schools established in this community, under the visionary leadership of the founding Principal and Director, Rev. Dr. John Mensah Oduro, the school has risen to fam within a short time.
+              Today it is one of the most popular primary-JHS/SHS schools in Accra with a long list of admirers. Since its establishment, the school has made continuous efforts to realize its vision and mission of nurturing "lively, inquiring, discerning and creative students".
             </p>
             <p className="text-lg text-gray-600">
               Founded with a mission to provide holistic, Christ-centered education, FCBCS has become 

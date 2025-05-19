@@ -8,7 +8,7 @@ export default function Admissions() {
 
   return (
     <div className="pt-20">
-      <div className="bg-blue-600 text-white py-16">
+      <div className="bg-[#E53935] text-white py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
@@ -31,7 +31,7 @@ export default function Admissions() {
               </h2>
               <div className="mt-8 space-y-8">
                 <div className="relative pl-16">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-blue-600 text-white">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-[#E53935] text-white">
                     1
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900">
@@ -43,7 +43,7 @@ export default function Admissions() {
                   </p>
                 </div>
                 <div className="relative pl-16">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-blue-600 text-white">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-[#E53935] text-white">
                     2
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900">
@@ -55,7 +55,7 @@ export default function Admissions() {
                   </p>
                 </div>
                 <div className="relative pl-16">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-blue-600 text-white">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full bg-[#E53935] text-white">
                     3
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900">
@@ -70,7 +70,7 @@ export default function Admissions() {
               <div className="mt-10">
                 <button
                   onClick={() => navigate('/admissions/apply')}
-                  className="inline-flex items-center gap-2 rounded-md bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500"
+                  className="inline-flex items-center gap-2 rounded-md bg-[#E53935] px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500"
                 >
                   Start Application
                   <ArrowRight className="h-4 w-4" />

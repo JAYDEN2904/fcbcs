@@ -51,10 +51,13 @@ export default function NurseryKindergarten() {
                   Message from the Head of Department
                 </h2>
                 <blockquote className="text-xl text-gray-600 italic">
-                  "Every child deserves a strong start. In our department, we focus on nurturing each child's heart and mind. Through love, play, and structured learning, we lay a solid foundation for lifelong learning and Godly character."
+                  "Welcome to the heart of early learning, where little hands are busy and little hearts are blooming!
+                   In our Nursery and Kindergarten, we create more than just a classroom — we create a joyful and loving space where every child feels safe, seen, and celebrated. These early years are filled with wonder, and we embrace that wonder through play-based learning, music, movement, storytelling, art, and an introduction to foundational Christian values.
+                   Our approach is gentle, intentional, and deeply relational. We focus not only on cognitive development, but also on emotional and social growth — teaching kindness, sharing, curiosity, and confidence. We encourage each child to explore, to ask questions, and to find joy in discovery.
+                   As educators, we are privileged to walk alongside families during this tender season of a child’s life. Together, we lay the groundwork for a lifetime of love for learning."
                 </blockquote>
                 <div className="text-gray-900">
-                  <p className="font-semibold">Mrs. Carolyn Oduro</p>
+                  <p className="font-semibold">Mrs. Cecelia</p>
                   <p>Head of Nursery & Kindergarten</p>
                 </div>
               </div>

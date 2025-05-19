@@ -116,12 +116,12 @@ export default function AcademicDivisions() {
               </div>
               
               <div className="space-y-6">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#E53935] text-white">
                   <division.icon className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900">{division.title}</h3>
-                  <p className="text-lg text-blue-600">{division.subtitle}</p>
+                  <p className="text-lg text-red-600">{division.subtitle}</p>
                 </div>
                 <p className="text-gray-600">{division.description}</p>
                 
@@ -131,7 +131,7 @@ export default function AcademicDivisions() {
                     <ul className="grid grid-cols-2 gap-2">
                       {division.focusAreas.map((area) => (
                         <li key={area} className="flex items-center text-gray-600">
-                          <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2" />
+                          <span className="w-1.5 h-1.5 bg-[#E53935] rounded-full mr-2" />
                           {area}
                         </li>
                       ))}
@@ -145,7 +145,7 @@ export default function AcademicDivisions() {
                     <ul className="grid grid-cols-2 gap-2">
                       {division.subjects.map((subject) => (
                         <li key={subject} className="flex items-center text-gray-600">
-                          <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2" />
+                          <span className="w-1.5 h-1.5 bg-[#E53935] rounded-full mr-2" />
                           {subject}
                         </li>
                       ))}
@@ -159,7 +159,7 @@ export default function AcademicDivisions() {
                     <ul className="space-y-2">
                       {division.tracks.map((track) => (
                         <li key={track} className="flex items-center text-gray-600">
-                          <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2" />
+                          <span className="w-1.5 h-1.5 bg-[#E53935] rounded-full mr-2" />
                           {track}
                         </li>
                       ))}
@@ -173,7 +173,7 @@ export default function AcademicDivisions() {
                     <ul className="space-y-2">
                       {division.features.map((feature) => (
                         <li key={feature} className="flex items-center text-gray-600">
-                          <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2" />
+                          <span className="w-1.5 h-1.5 bg-[#E53935] rounded-full mr-2" />
                           {feature}
                         </li>
                       ))}

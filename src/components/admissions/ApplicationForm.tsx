@@ -1,34 +1,50 @@
 import React, { useState } from 'react';
 
 interface FormData {
+  surname: string;
   firstName: string;
-  lastName: string;
+  middleName: string;
   dateOfBirth: string;
-  gender: string;
-  email: string;
-  phone: string;
-  address: string;
+  sex: string;
+  hometown: string;
+  nationality: string;
+  religion: string;
   previousSchool: string;
-  gradeApplyingFor: string;
-  parentName: string;
-  parentEmail: string;
-  parentPhone: string;
+  hasSpecialCondition: string;
+  specialConditionDetails: string;
+  fatherName: string;
+  fatherAddress: string;
+  fatherPhone: string;
+  motherName: string;
+  motherAddress: string;
+  motherPhone: string;
+  guardianName: string;
+  guardianAddress: string;
+  guardianPhone: string;
 }
 
 export default function ApplicationForm() {
   const [formData, setFormData] = useState<FormData>({
+    surname: '',
     firstName: '',
-    lastName: '',
+    middleName: '',
     dateOfBirth: '',
-    gender: '',
-    email: '',
-    phone: '',
-    address: '',
+    sex: '',
+    hometown: '',
+    nationality: '',
+    religion: '',
     previousSchool: '',
-    gradeApplyingFor: '',
-    parentName: '',
-    parentEmail: '',
-    parentPhone: '',
+    hasSpecialCondition: '',
+    specialConditionDetails: '',
+    fatherName: '',
+    fatherAddress: '',
+    fatherPhone: '',
+    motherName: '',
+    motherAddress: '',
+    motherPhone: '',
+    guardianName: '',
+    guardianAddress: '',
+    guardianPhone: '',
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -46,7 +62,7 @@ export default function ApplicationForm() {
   };
 
   return (
-    <div className="py-16 px-6 sm:px-8">
+    <div className="pt-24 pb-16 px-6 sm:px-8">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">Student Application Form</h2>
 
@@ -56,6 +72,21 @@ export default function ApplicationForm() {
             <h3 className="text-xl font-semibold text-gray-900">Student Information</h3>
 
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+              <div>
+                <label htmlFor="surname" className="block text-sm font-medium text-gray-700">
+                  Surname
+                </label>
+                <input
+                  type="text"
+                  name="surname"
+                  id="surname"
+                  required
+                  value={formData.surname}
+                  onChange={handleChange}
+                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                />
+              </div>
+
               <div>
                 <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
                   First Name
@@ -72,15 +103,14 @@ export default function ApplicationForm() {
               </div>
 
               <div>
-                <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
-                  Last Name
+                <label htmlFor="middleName" className="block text-sm font-medium text-gray-700">
+                  Middle Name
                 </label>
                 <input
                   type="text"
-                  name="lastName"
-                  id="lastName"
-                  required
-                  value={formData.lastName}
+                  name="middleName"
+                  id="middleName"
+                  value={formData.middleName}
                   onChange={handleChange}
                   className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
                 />
@@ -102,82 +132,75 @@ export default function ApplicationForm() {
               </div>
 
               <div>
-                <label htmlFor="gender" className="block text-sm font-medium text-gray-700">
-                  Gender
+                <label htmlFor="sex" className="block text-sm font-medium text-gray-700">
+                  Sex
                 </label>
                 <select
-                  name="gender"
-                  id="gender"
+                  name="sex"
+                  id="sex"
                   required
-                  value={formData.gender}
+                  value={formData.sex}
                   onChange={handleChange}
                   className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
                 >
-                  <option value="">Select gender</option>
+                  <option value="">Select sex</option>
                   <option value="male">Male</option>
                   <option value="female">Female</option>
                 </select>
               </div>
-            </div>
 
-            <div className="space-y-6">
               <div>
-                <label htmlFor="address" className="block text-sm font-medium text-gray-700">
-                  Address
+                <label htmlFor="hometown" className="block text-sm font-medium text-gray-700">
+                  Hometown/Region
                 </label>
-                <textarea
-                  name="address"
-                  id="address"
+                <input
+                  type="text"
+                  name="hometown"
+                  id="hometown"
                   required
-                  value={formData.address}
+                  value={formData.hometown}
                   onChange={handleChange}
-                  rows={3}
                   className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
                 />
               </div>
 
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    required
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    id="phone"
-                    required
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
-                  />
-                </div>
+              <div>
+                <label htmlFor="nationality" className="block text-sm font-medium text-gray-700">
+                  Nationality
+                </label>
+                <input
+                  type="text"
+                  name="nationality"
+                  id="nationality"
+                  required
+                  value={formData.nationality}
+                  onChange={handleChange}
+                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                />
               </div>
-            </div>
-          </div>
 
-          {/* Academic Information */}
-          <div className="space-y-6">
-            <h3 className="text-xl font-semibold text-gray-900">Academic Information</h3>
+              <div>
+                <label htmlFor="religion" className="block text-sm font-medium text-gray-700">
+                  Religion
+                </label>
+                <select
+                  name="religion"
+                  id="religion"
+                  required
+                  value={formData.religion}
+                  onChange={handleChange}
+                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                >
+                  <option value="">Select religion</option>
+                  <option value="christianity">Christianity</option>
+                  <option value="islam">Islam</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
 
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
               <div>
                 <label htmlFor="previousSchool" className="block text-sm font-medium text-gray-700">
-                  Previous School
+                  Previous School Attended
                 </label>
                 <input
                   type="text"
@@ -189,28 +212,43 @@ export default function ApplicationForm() {
                   className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
                 />
               </div>
+            </div>
 
+            <div className="space-y-4">
               <div>
-                <label htmlFor="gradeApplyingFor" className="block text-sm font-medium text-gray-700">
-                  Grade Applying For
+                <label htmlFor="hasSpecialCondition" className="block text-sm font-medium text-gray-700">
+                  Do you have any special sickness or disability you wish to bring to notice of the school?
                 </label>
                 <select
-                  name="gradeApplyingFor"
-                  id="gradeApplyingFor"
+                  name="hasSpecialCondition"
+                  id="hasSpecialCondition"
                   required
-                  value={formData.gradeApplyingFor}
+                  value={formData.hasSpecialCondition}
                   onChange={handleChange}
                   className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
                 >
-                  <option value="">Select grade</option>
-                  <option value="grade1">Grade 1</option>
-                  <option value="grade2">Grade 2</option>
-                  <option value="grade3">Grade 3</option>
-                  <option value="grade4">Grade 4</option>
-                  <option value="grade5">Grade 5</option>
-                  <option value="grade6">Grade 6</option>
+                  <option value="">Select option</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
                 </select>
               </div>
+
+              {formData.hasSpecialCondition === 'yes' && (
+                <div>
+                  <label htmlFor="specialConditionDetails" className="block text-sm font-medium text-gray-700">
+                    Please specify:
+                  </label>
+                  <textarea
+                    name="specialConditionDetails"
+                    id="specialConditionDetails"
+                    required
+                    value={formData.specialConditionDetails}
+                    onChange={handleChange}
+                    rows={3}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
+              )}
             </div>
           </div>
 
@@ -218,50 +256,156 @@ export default function ApplicationForm() {
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-gray-900">Parent/Guardian Information</h3>
 
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-              <div>
-                <label htmlFor="parentName" className="block text-sm font-medium text-gray-700">
-                  Parent/Guardian Name
-                </label>
-                <input
-                  type="text"
-                  name="parentName"
-                  id="parentName"
-                  required
-                  value={formData.parentName}
-                  onChange={handleChange}
-                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
-                />
-              </div>
+            {/* Father's Information */}
+            <div className="space-y-4">
+              <h4 className="text-lg font-medium text-gray-900">Father's Information</h4>
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <div>
+                  <label htmlFor="fatherName" className="block text-sm font-medium text-gray-700">
+                    Father's Name
+                  </label>
+                  <input
+                    type="text"
+                    name="fatherName"
+                    id="fatherName"
+                    required
+                    value={formData.fatherName}
+                    onChange={handleChange}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
 
-              <div>
-                <label htmlFor="parentEmail" className="block text-sm font-medium text-gray-700">
-                  Parent/Guardian Email
-                </label>
-                <input
-                  type="email"
-                  name="parentEmail"
-                  id="parentEmail"
-                  required
-                  value={formData.parentEmail}
-                  onChange={handleChange}
-                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
-                />
-              </div>
+                <div>
+                  <label htmlFor="fatherPhone" className="block text-sm font-medium text-gray-700">
+                    Father's Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    name="fatherPhone"
+                    id="fatherPhone"
+                    required
+                    value={formData.fatherPhone}
+                    onChange={handleChange}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
 
-              <div>
-                <label htmlFor="parentPhone" className="block text-sm font-medium text-gray-700">
-                  Parent/Guardian Phone
-                </label>
-                <input
-                  type="tel"
-                  name="parentPhone"
-                  id="parentPhone"
-                  required
-                  value={formData.parentPhone}
-                  onChange={handleChange}
-                  className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
-                />
+                <div className="sm:col-span-2">
+                  <label htmlFor="fatherAddress" className="block text-sm font-medium text-gray-700">
+                    Father's Address
+                  </label>
+                  <textarea
+                    name="fatherAddress"
+                    id="fatherAddress"
+                    required
+                    value={formData.fatherAddress}
+                    onChange={handleChange}
+                    rows={2}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Mother's Information */}
+            <div className="space-y-4">
+              <h4 className="text-lg font-medium text-gray-900">Mother's Information</h4>
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <div>
+                  <label htmlFor="motherName" className="block text-sm font-medium text-gray-700">
+                    Mother's Name
+                  </label>
+                  <input
+                    type="text"
+                    name="motherName"
+                    id="motherName"
+                    required
+                    value={formData.motherName}
+                    onChange={handleChange}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="motherPhone" className="block text-sm font-medium text-gray-700">
+                    Mother's Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    name="motherPhone"
+                    id="motherPhone"
+                    required
+                    value={formData.motherPhone}
+                    onChange={handleChange}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
+
+                <div className="sm:col-span-2">
+                  <label htmlFor="motherAddress" className="block text-sm font-medium text-gray-700">
+                    Mother's Address
+                  </label>
+                  <textarea
+                    name="motherAddress"
+                    id="motherAddress"
+                    required
+                    value={formData.motherAddress}
+                    onChange={handleChange}
+                    rows={2}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Guardian's Information */}
+            <div className="space-y-4">
+              <h4 className="text-lg font-medium text-gray-900">Guardian's Information</h4>
+              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <div>
+                  <label htmlFor="guardianName" className="block text-sm font-medium text-gray-700">
+                    Guardian's Name
+                  </label>
+                  <input
+                    type="text"
+                    name="guardianName"
+                    id="guardianName"
+                    required
+                    value={formData.guardianName}
+                    onChange={handleChange}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="guardianPhone" className="block text-sm font-medium text-gray-700">
+                    Guardian's Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    name="guardianPhone"
+                    id="guardianPhone"
+                    required
+                    value={formData.guardianPhone}
+                    onChange={handleChange}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
+
+                <div className="sm:col-span-2">
+                  <label htmlFor="guardianAddress" className="block text-sm font-medium text-gray-700">
+                    Guardian's Address
+                  </label>
+                  <textarea
+                    name="guardianAddress"
+                    id="guardianAddress"
+                    required
+                    value={formData.guardianAddress}
+                    onChange={handleChange}
+                    rows={2}
+                    className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  />
+                </div>
               </div>
             </div>
           </div>

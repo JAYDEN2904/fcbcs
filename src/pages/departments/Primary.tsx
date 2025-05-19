@@ -35,7 +35,7 @@ export default function Primary() {
               <div className="relative h-[600px] rounded-2xl overflow-hidden">
                 <img
                   src= "../../assets/IMG_2813.jpg"
-                  alt="Mr. Kwame Mensah"
+                  alt="Mr. Ben Boampong"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl" />
@@ -51,10 +51,16 @@ export default function Primary() {
                   Message from the Head of Department
                 </h2>
                 <blockquote className="text-xl text-gray-600 italic">
-                  "Our primary department is committed to nurturing young minds and hearts. We focus on academic excellence while instilling Christian values and developing well-rounded individuals who are prepared for future success."
+                Education is not the filling of a pail, but the lighting of a fire.” – William Butler Yeats
+                </blockquote>
+                <blockquote className="text-xl text-gray-600 italic">
+                Our Primary School is a vibrant community where students begin to truly discover the world — and themselves — through learning.
+                These foundational years are about more than academics. They are about nurturing curiosity, instilling values, and helping children become independent thinkers and responsible citizens. In every classroom, we emphasize literacy, numeracy, and problem-solving while encouraging creativity, teamwork, and resilience.
+                Our curriculum is dynamic and interactive, incorporating hands-on projects, faith-based principles, and real-life applications. We create a learning atmosphere where students feel confident to ask questions, explore ideas, and learn from both successes and challenges.
+                We work closely with families to ensure each child is supported and encouraged on their unique journey. We believe every child has incredible potential, and our goal is to help them unlock it — one joyful day at a time.
                 </blockquote>
                 <div className="text-gray-900">
-                  <p className="font-semibold">Mr. Kwame Mensah</p>
+                  <p className="font-semibold">Mr. Ben Boampong</p>
                   <p>Head of Primary Department</p>
                 </div>
               </div>

@@ -28,7 +28,7 @@ export default function Message() {
   return (
     <section className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Head of School Message */}
+        {/* Director of School Message */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
           <div className="relative h-[650px] rounded-2xl overflow-hidden">
             <img
@@ -39,7 +39,7 @@ export default function Message() {
           </div>
           <div className="space-y-6">
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-              Message from the Director of School
+              Message from the Director of The School
             </h2>
             <blockquote className="text-lg text-gray-600 italic">
               "It gives me immense joy and pleasure to be with children. The happiness they share is just phenomenal. Their endless energy is contagious. I am blessed to be with them 
@@ -55,7 +55,7 @@ export default function Message() {
             </blockquote>
             <div className="pt-4">
               <p className="font-semibold text-gray-900">Mrs. Kate Hand Oduro Osafo</p>
-              <p className="text-gray-600">Head of School, FCBCS</p>
+              <p className="text-gray-600">Director, FCBCS</p>
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ export default function SeniorHigh() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <FadeIn direction="left">
-              <div className="relative h-[400px] rounded-2xl overflow-hidden">
+              <div className="relative h-[650px] rounded-2xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2022&q=80"
                   alt="Mr. Emmanuel Owusu"
@@ -51,7 +51,12 @@ export default function SeniorHigh() {
                   Message from the Head of Department
                 </h2>
                 <blockquote className="text-xl text-gray-600 italic">
-                  "Our Senior High School program is designed to prepare students for university success and future leadership. We focus on academic excellence, critical thinking, and Christian values to develop well-rounded individuals who are ready to make a positive impact in the world."
+                  "John Mensah Oduro for his foresight in establishing this institution and his quest to shape the future os our nation using education as the foundation. We continue to execute our code mandate by offering quality education to students from all backgrounds and academic standards.
+                  Our hardworking teachers have over the years not relented on their oars to give off their best even under trying circumstances. Candidates presented for the WASSCE examination have proven themselves strong against all odds and produced good grades necessary to qualify them for universities and other professional institutions.
+                  It is always a pleasant experience to observe students who have been educated under our tutelage gain admission to various tertiary institutions after successfully going through our grooming and scrutiny.
+                  At Faith Community Baptist Senior High School, we focus on individual student's academic progression and potential. No student is left out in our academic grooming process. From the day of admission to the last day a student leaves the school,
+                  frantic measures are taken term after term to prepare them adequately for their final examination. We pride ourselves with the fact that, our final WASSCE results have been impressive and this has culminated into a study increase in enrollment especially in the General Arts department. 
+                  Our best advertisement continues to be the various testimonies given about us by parents and students who have experienced our excellent services."
                 </blockquote>
                 <div className="text-gray-900">
                   <p className="font-semibold">Mr. Emmanuel Owusu</p>
