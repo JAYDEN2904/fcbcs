@@ -1,7 +1,8 @@
 import React from 'react';
 import { BookOpen, Heart, Users, Trophy, Sparkles } from 'lucide-react';
-import img2851 from '../../../assets/IMG_2851.jpg';
-import img2834 from '../../../assets/IMG_2834.jpg';
+import feature2 from '../../../assets/IMG_2851.jpg'
+import feature3 from '../../../assets/IMG_2834.jpg'
+
 
 export default function Features() {
   const features = [
@@ -15,13 +16,13 @@ export default function Features() {
       title: "Holistic Development",
       description: "We focus on developing the whole child—intellectually, spiritually, emotionally, and socially. Our comprehensive approach ensures students grow into well-rounded individuals.",
       icon: Sparkles,
-      image: img2851
+      image: feature2
     },
     {
       title: "Expert Educators",
       description: "Our dedicated team of qualified teachers brings passion and expertise to every classroom. They don't just teach—they mentor, inspire, and guide students towards success.",
       icon: Users,
-      image: img2834
+      image: feature3
     },
     {
       title: "Rich Curriculum",

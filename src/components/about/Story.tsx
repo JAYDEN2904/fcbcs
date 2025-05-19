@@ -1,6 +1,5 @@
 import React from 'react';
 import { Heart, Target, Lightbulb, Shield, Users, Star } from 'lucide-react';
-import img2838 from '../../../assets/IMG_2838.jpg';
 
 export default function Story() {
   const coreValues = [
@@ -53,7 +52,7 @@ export default function Story() {
           </div>
           <div className="relative h-[400px] rounded-2xl overflow-hidden">
             <img
-              src={img2838}
+              src= "../../assets/IMG_2838.jpg"
               alt="School Building"
               className="w-full h-full object-cover"
             />
