@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, GraduationCap, Trophy, Users } from 'lucide-react';
+import img2920 from '../../../assets/IMG_2920.jpg';
 
 export default function Message() {
   const achievements = [
@@ -32,7 +33,7 @@ export default function Message() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
           <div className="relative h-[650px] rounded-2xl overflow-hidden">
             <img
-              src= "../../assets/IMG_2920.jpg"
+              src={img2920}
               alt="Head of School"
               className="w-full h-full object-cover"
             />
