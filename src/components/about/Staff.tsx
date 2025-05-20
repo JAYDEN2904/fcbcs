@@ -73,7 +73,7 @@ export default function Staff() {
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {staffMembers.map((member) => (
-            <div key={member.id} className="bg-white rounded-lg shadow-lg overflow-hidden w-[450px]">
+            <div key={member.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src={member.image}
                 alt={member.name}

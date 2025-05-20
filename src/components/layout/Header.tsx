@@ -25,7 +25,7 @@ export default function Header() {
   const [departmentsOpen, setDepartmentsOpen] = useState(false);
 
   return (
-    <header className="fixed w-full bg-white shadow-sm z-50">
+    <header className="fixed w-full bg-white shadow-sm z-[100]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex items-center gap-2">
           <img src={logo} alt="Faith Community Baptist School Logo" className="h-8" />
@@ -83,7 +83,7 @@ export default function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 hover:text-[#E53935]"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 hover:text-[#E53935] z-[101]"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
@@ -97,7 +97,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden">
+        <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg z-[99]">
           <div className="space-y-1 px-4 pb-3 pt-2">
             {navigation.map((item) => (
               item.title === 'Departments' ? (
