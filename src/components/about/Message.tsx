@@ -2,6 +2,7 @@ import React from 'react';
 import { Award, GraduationCap, Trophy, Users } from 'lucide-react';
 import kateHand from '../../../assets/IMG_2920.jpg'
 
+
 export default function Message() {
   const achievements = [
     {
