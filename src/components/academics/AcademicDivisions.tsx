@@ -1,5 +1,9 @@
 import React from 'react';
 import { BookOpen, GraduationCap, Users, School } from 'lucide-react';
+import nursery from '../../../assets/IMG_2887.jpg'
+import primary from '../../../assets/IMG_2851.jpg'
+import jhs from '../../../assets/IMG_2828.jpg'
+import shs from '../../../assets/IMG_2919.jpg'
 
 export default function AcademicDivisions() {
   const divisions = [
@@ -7,7 +11,7 @@ export default function AcademicDivisions() {
       title: "Nursery & Kindergarten",
       subtitle: "Early Years (Ages 1.5 – 5 Years)",
       description: "In our Early Years program, learning is hands-on, joyful, and centered around play. Children are introduced to foundational concepts in language, numbers, art, and the world around them—developing social skills, motor abilities, and a love for learning.",
-      image: "../../assets/IMG_2887.jpg",
+      image: nursery,
       icon: School,
       focusAreas: [
         "Phonics & Early Literacy",
@@ -22,7 +26,7 @@ export default function AcademicDivisions() {
       title: "Primary School",
       subtitle: "Basic 1 – 6 (Ages 6 – 11 Years)",
       description: "Our primary curriculum builds on foundational knowledge with structured instruction in core subjects, while nurturing creativity and confidence. Students are exposed to digital tools, project-based learning, and moral instruction rooted in Christian faith.",
-      image: "../../assets/IMG_2851.jpg",
+      image: primary,
       icon: BookOpen,
       subjects: [
         "English Language & Literature",
@@ -41,7 +45,7 @@ export default function AcademicDivisions() {
       title: "Junior High School",
       subtitle: "JHS 1 – 3 (Ages 12 – 14 Years)",
       description: "Junior High is a time of transition and deeper learning. We focus on preparing students for the Basic Education Certificate Examination (BECE) while promoting leadership, critical thinking, and responsibility.",
-      image: "../../assets/IMG_2828.jpg",
+      image: jhs,
       icon: Users,
       features: [
         "Preparation for national assessments (BECE)",
@@ -67,7 +71,7 @@ export default function AcademicDivisions() {
       title: "Senior High School",
       subtitle: "SHS 1 – 3 (Ages 15 – 18 Years)",
       description: "At the SHS level, our students specialize in academic tracks that align with their career goals and passions. We maintain high academic standards, offer rigorous exam preparation, and support university and career readiness.",
-      image: "../../assets/IMG_2919.jpg",
+      image: shs,
       icon: GraduationCap,
       tracks: [
         "General Science – Physics, Chemistry, Biology, Elective Mathematics",

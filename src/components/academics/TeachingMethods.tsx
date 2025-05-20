@@ -1,5 +1,7 @@
 import React from 'react';
 import { BookOpen, Users, Award, Cross, Heart, Shield } from 'lucide-react';
+import girlsGuide from '../../../assets/IMG_2923.jpg'
+import cadet from '../../../assets/IMG_2924.jpg'
 
 export default function TeachingMethods() {
   const methods = [
@@ -30,13 +32,13 @@ export default function TeachingMethods() {
       title: "Girls Guide",
       description: "The Girls' Guide empowers young girls with life skills, confidence, and a strong sense of responsibility. Through teamwork, outdoor activities, and service projects, members learn to lead with compassion and uphold values such as honesty, respect, and resilience — all while building lasting friendships and memories.",
       icon: Heart,
-      image: "../../assets/IMG_2923.jpg"
+      image: girlsGuide
     },
     {
       title: "Cadet",
       description: "The Cadet Corps instills discipline, leadership, and patriotism in students through structured training and teamwork. Cadets take part in drills, physical fitness, and civic education, preparing them to become responsible, confident, and community-minded individuals with a heart to serve.",
       icon: Shield,
-      image: "../../assets/IMG_2924.jpg"
+      image: cadet
     },
     {
       title: "Scripture Union",

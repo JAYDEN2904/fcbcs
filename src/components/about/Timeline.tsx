@@ -1,10 +1,11 @@
 import React from 'react';
+import founder from '../../../assets/IMG_2927.jpg'
 
 const schoolHistory = {
   founder: {
     name: 'Rev. Dr. John Mensah Oduro',
     title: 'Founder & Visionary',
-    image: '../../assets/founder.jpg',
+    image: founder,
     bio: 'A visionary leader who established Faith Community Baptist Complex of Schools with a mission to provide quality education grounded in Christian values.'
   }
 };

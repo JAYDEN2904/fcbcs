@@ -1,5 +1,6 @@
 import React from 'react';
 import { FadeIn, StaggerContainer, StaggerItem } from '../../components/animations/AnimationComponents';
+import cecilia from '../../../assets/IMG_2895.jpg'
 
 export default function NurseryKindergarten() {
   const features = [
@@ -34,7 +35,7 @@ export default function NurseryKindergarten() {
             <FadeIn direction="left">
               <div className="relative h-[600px] rounded-2xl overflow-hidden">
                 <img
-                  src="../../assets/IMG_2895.jpg"
+                  src= {cecilia}
                   alt="Mrs. Cecilia"
                   className="w-full h-full object-cover"
                 />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FadeIn, StaggerContainer, StaggerItem } from '../../components/animations/AnimationComponents';
+import phillip from '../../../assets/IMG_2831.jpg'
 
 export default function JuniorHigh() {
   const features = [
@@ -34,7 +35,7 @@ export default function JuniorHigh() {
             <FadeIn direction="left">
               <div className="relative h-[600px] rounded-2xl overflow-hidden">
                 <img
-                  src="../../assets/IMG_2813.jpg"
+                  src= {phillip}
                   alt="Mrs. Sarah Addo"
                   className="w-full h-full object-cover"
                 />
