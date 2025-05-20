@@ -1,26 +1,32 @@
 import React from 'react';
 import { StaffMember } from '../../types';
+import kateHand from '../../../assets/IMG_2922.jpg'
+import amaOduro from '../../../assets/IMG_2811.jpg'
+import carolyn from '../../../assets/IMG_2921.jpg'
+import ben from '../../../assets/IMG_2813.jpg'
+import phillip from '../../../assets/IMG_2926.jpg'
+import cecilia from '../../../assets/IMG_2895.jpg'
 
 const staffMembers: StaffMember[] = [
   {
     id: 1,
     name: 'Mrs. Kate Hand Oduro Osafo',
     role: 'Director',
-    image: "../../assets/IMG_2922.jpg",
+    image: kateHand,
     bio: 'Dr. Wilson brings over 20 years of educational leadership experience.',
   },
   {
     id: 2,
     name: 'Mrs. Evelyn Ama Oduro',
     role: 'Manager',
-    image: "../../assets/IMG_2811.jpg",
+    image: amaOduro,
     bio: 'Leading our science department with innovative teaching methods.',
   },
   {
     id: 3,
     name: 'Mrs. Carolyn Oduro',
     role: 'Manager, Early Childhood',
-    image: "../../assets/IMG_2921.jpg",
+    image: carolyn,
     bio: 'Fostering creativity and artistic expression in our students.',
   },
   {
@@ -34,21 +40,21 @@ const staffMembers: StaffMember[] = [
     id: 5,
     name: 'Mr. Ben Boampong',
     role: 'Headmaster, Basic School',
-    image: "../../assets/IMG_2813.jpg",
+    image: ben,
     bio: 'Fostering creativity and artistic expression in our students.',
   },
   {
     id: 6,
     name: 'Mr. Phillip Addo',
     role: 'Headmaster, Junior High School',
-    image: "../../assets/IMG_2926.jpg",
+    image: phillip,
     bio: 'Fostering creativity and artistic expression in our students.',
   },
   {
     id: 7,
     name: 'Mrs. Cecilia',
     role: 'Headmistress, Early Childhood',
-    image: "../../assets/IMG_2895.jpg",
+    image: cecilia,
     bio: 'Fostering creativity and artistic expression in our students.',
   },
 ];
