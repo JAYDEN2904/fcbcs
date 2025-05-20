@@ -68,7 +68,7 @@ export default function Staff() {
             Our Leadership Team
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">
-            Meet the dedicated educators shaping the future of Excellence Academy
+            Meet the dedicated educators shaping the future of Faith Community Baptist School
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -77,7 +77,7 @@ export default function Staff() {
               <img
                 src={member.image}
                 alt={member.name}
-                className="h-73 w-full object-cover"
+                className="h-70 w-full object-cover"
               />
               <div className="p-6">
                 <h3 className="text-lg font-semibold text-gray-900">{member.name}</h3>
