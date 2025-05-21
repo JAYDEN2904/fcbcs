@@ -1,6 +1,6 @@
 import React from 'react';
 import { FadeIn, StaggerContainer, StaggerItem } from '../../components/animations/AnimationComponents';
-import phillip from '../../../assets/IMG_2831.jpg'
+import phillip from '../../../assets/IMG_2926.jpg'
 
 export default function JuniorHigh() {
   const features = [
