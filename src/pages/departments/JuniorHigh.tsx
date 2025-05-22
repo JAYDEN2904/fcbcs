@@ -1,5 +1,6 @@
 import React from 'react';
 import { FadeIn, StaggerContainer, StaggerItem } from '../../components/animations/AnimationComponents';
+import AdmissionRequirements from '../../components/admissions/AdmissionRequirements';
 import phillip from '../../../assets/IMG_2926.jpg'
 
 export default function JuniorHigh() {
@@ -36,7 +37,7 @@ export default function JuniorHigh() {
               <div className="relative h-[600px] rounded-2xl overflow-hidden">
                 <img
                   src= {phillip}
-                  alt="Mrs. Sarah Addo"
+                  alt="Mrs. Phillip Addo"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl" />
@@ -96,6 +97,9 @@ export default function JuniorHigh() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Admission Requirements Section */}
+      <AdmissionRequirements department="Junior High Department" />
 
       {/* Call to Action */}
       <section className="py-16 bg-[#E53935] text-white">

@@ -27,10 +27,10 @@ export default function Header() {
   return (
     <header className="fixed w-full bg-white shadow-sm z-[100]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-        <div className="flex items-center gap-2">
+        <NavLink to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
           <img src={logo} alt="Faith Community Baptist School Logo" className="h-8" />
           <span className="text-xl font-bold text-[#E53935]">FCBCS</span>
-        </div>
+        </NavLink>
 
         <div className="hidden lg:flex lg:gap-x-8">
           {navigation.map((item) => (

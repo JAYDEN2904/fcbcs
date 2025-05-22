@@ -1,5 +1,7 @@
 import React from 'react';
 import { FadeIn, StaggerContainer, StaggerItem } from '../../components/animations/AnimationComponents';
+import AdmissionRequirements from '../../components/admissions/AdmissionRequirements';
+import ben from '../../../assets/IMG_2813.jpg'
 
 export default function SeniorHigh() {
   const features = [
@@ -59,7 +61,7 @@ export default function SeniorHigh() {
                   Our best advertisement continues to be the various testimonies given about us by parents and students who have experienced our excellent services."
                 </blockquote>
                 <div className="text-gray-900">
-                  <p className="font-semibold">Mr. Emmanuel Owusu</p>
+                  <p className="font-semibold">Mr. Hillary Ampoh</p>
                   <p>Head of Senior High School Department</p>
                 </div>
               </div>
@@ -100,6 +102,9 @@ export default function SeniorHigh() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Admission Requirements Section */}
+      <AdmissionRequirements department="Senior High Department" />
 
       {/* Call to Action */}
       <section className="py-16 bg-[#E53935] text-white">
