@@ -2,7 +2,7 @@ import React from 'react';
 import { FadeIn, StaggerContainer, StaggerItem } from '../../components/animations/AnimationComponents';
 import AdmissionRequirements from '../../components/admissions/AdmissionRequirements';
 import cecilia from '../../../assets/IMG_2895.jpg'
-import ben from '../../../assets/IMG_2813.jpg'
+
 
 export default function NurseryKindergarten() {
   const features = [
@@ -38,7 +38,7 @@ export default function NurseryKindergarten() {
               <div className="relative h-[600px] rounded-2xl overflow-hidden">
                 <img
                   src= {cecilia}
-                  alt="Mrs. Cecilia"
+                  alt="Mrs. Cecilia Soku"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-2xl" />
@@ -60,7 +60,7 @@ export default function NurseryKindergarten() {
                   As educators, we are privileged to walk alongside families during this tender season of a child's life. Together, we lay the groundwork for a lifetime of love for learning."
                 </blockquote>
                 <div className="text-gray-900">
-                  <p className="font-semibold">Mrs. Cecelia</p>
+                  <p className="font-semibold">Mrs. Cecelia Soku</p>
                   <p>Head of Nursery & Kindergarten</p>
                 </div>
               </div>

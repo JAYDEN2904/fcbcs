@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import StructuredData from './components/common/StructuredData';
 import Home from './pages/Home';
 import About from './pages/About';
 import Academics from './pages/Academics';
@@ -17,6 +18,7 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
+        <StructuredData />
         <Header />
         <main className="flex-grow">
           <Routes>
