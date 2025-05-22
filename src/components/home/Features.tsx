@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Heart, Users, Trophy, Sparkles } from 'lucide-react';
+import feature1 from '../../../assets/IMG_2858.jpg'
 import feature2 from '../../../assets/IMG_2851.jpg'
 import feature3 from '../../../assets/IMG_2834.jpg'
 
@@ -7,10 +8,10 @@ import feature3 from '../../../assets/IMG_2834.jpg'
 export default function Features() {
   const features = [
     {
-      title: "Faith-Based Excellence",
-      description: "Our education is rooted in Christian values, nurturing both academic excellence and spiritual growth. We create an environment where students can develop their faith while achieving their full potential.",
+      title: "Safe and Nurturing Environment",
+      description: "Every child deserves to feel safe, seen, and supported. Our secure and nurturing campus fosters confidence and curiosity, allowing students to learn fearlessly and flourish fully.",
       icon: Heart,
-      image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
+      image: feature1
     },
     {
       title: "Holistic Development",
