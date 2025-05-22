@@ -4,6 +4,7 @@ import { compression } from 'vite-plugin-compression2'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/',
   plugins: [
     react(),
     compression({
@@ -32,8 +33,12 @@ export default defineConfig({
           vendor: ['react', 'react-dom', 'react-router-dom'],
           'framer-motion': ['framer-motion'],
         },
+        assetFileNames: 'assets/[name].[hash][extname]',
+        chunkFileNames: 'assets/[name].[hash].js',
+        entryFileNames: 'assets/[name].[hash].js',
       },
     },
+    sourcemap: false,
   },
   resolve: {
     dedupe: ['react', 'react-dom'],
