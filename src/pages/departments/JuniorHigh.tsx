@@ -56,7 +56,7 @@ export default function JuniorHigh() {
                   "Our Junior High School program is designed to prepare students for the challenges of secondary education while developing their leadership potential. We focus on academic excellence, critical thinking, and Christian values to shape well-rounded individuals."
                 </blockquote>
                 <div className="text-gray-900">
-                  <p className="font-semibold">Mrs. Sarah Addo</p>
+                  <p className="font-semibold">Mrs. Phillip Addo</p>
                   <p>Head of Junior High School Department</p>
                 </div>
               </div>
