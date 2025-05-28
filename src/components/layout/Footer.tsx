@@ -44,7 +44,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-400">
                 <Mail className="h-4 w-4" />
-                info@fcbcs.edu
+                Faithcommunity89@yahoo.com
               </li>
             </ul>
           </div>
